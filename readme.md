@@ -2,6 +2,10 @@
 
 Este projeto permite controlar e monitorar a situação dos estabelecimentos junto ao SEFAZ utilizando o sistema TOTVS Datasul.
 
+Com esse código, é possível monitorar os estabelecimentos da empresa cadastrados no CD0403 no sefaz, hoje existe uma opção para pagar por essa utilização da API, com esse programa é utilizada as 3 verificações gratúitas por hora, com isso, rodando em 1 dia é possível valiadar 72 estabelecimentos por dia e cerca de 2.160 por mês.
+
+Ao realizar a verificação, ele grava na tabela estabelec-fiscal  (arquivo .df com a tabela zipada) como "ativa" ou "baixada", uma vez que o estabelecimento está com a situação baixada no SEFAZ não será possível realizar o faturamento, uma vez que o será bloqueado no FT0114, reduzindo assim possíveis faturamentos indesejados.
+
 ## Estrutura do Projeto
 
 - **ucd0403.p**: Programa responsável por verificar e exibir a situação SEFAZ dos estabelecimentos, definindo status como "Ativa" ou "Baixada".
