@@ -20,19 +20,19 @@ Imagens de demonstração estão na pasta `imagens`, que mostram as configuraç�
 ## Imagens de Demonstração
 
 ### Configuração do Programa FT0114
-![Configuração do Programa FT0114](images/BAS_PROG_FT0114.PNG)
+![Configuração do Programa FT0114](imagens/BAS_PROG_FT0114.PNG)
 
 ### Configuração do Programa CD0403
-![Configuração do Programa CD0403](images/cd0403.PNG)
+![Configuração do Programa CD0403](imagens/cd0403.PNG)
 
 ### Tela de Situação SEFAZ
-![Tela de Situação SEFAZ](images/cd0403-tela.PNG)
+![Tela de Situação SEFAZ](imagens/cd0403-tela.PNG)
 
 ### Tela de Auditoria de Estabelecimento
-![Tela de Auditoria de Estabelecimento](images/escd0403.PNG)
+![Tela de Auditoria de Estabelecimento](imagens/escd0403.PNG)
 
 ### Mensagem de Erro para Estabelecimentos Baixados
-![Mensagem de Erro](images/FT0114.PNG)
+![Mensagem de Erro](imagens/FT0114.PNG)
 
 
 ## Como Usar
