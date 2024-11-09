@@ -6,6 +6,8 @@ Com esse código, é possível monitorar os estabelecimentos da empresa cadastra
 
 Ao realizar a verificação, ele grava na tabela estabelec-fiscal  (arquivo .df com a tabela zipada) como "ativa" ou "baixada", uma vez que o estabelecimento está com a situação baixada no SEFAZ não será possível realizar o faturamento, uma vez que o será bloqueado no FT0114, reduzindo assim possíveis faturamentos indesejados.
 
+O ideal é deixar a rotina sendo executada por RPW a cada 1 hora, pois a limitação da sefaz de maneira gratuita é de 3 por hora.
+
 ## Estrutura do Projeto
 
 - **ucd0403.p**: Programa responsável por verificar e exibir a situação SEFAZ dos estabelecimentos, definindo status como "Ativa" ou "Baixada".
